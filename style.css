@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #f8f8f8;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+nav a {
+    margin-right: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+
+nav a:last-child {
+    margin-right: 0;
+}
+
+nav a:hover {
+    color: #007acc;
+}
+
+nav a.cta-button {
+    background: #007acc;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+/* Hero section */
+.hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.hero-image {
+    flex: 1 1 400px;
+    max-width: 400px;
+    border-radius: 8px;
+    margin-right: 40px;
+}
+
+.hero-text {
+    flex: 1 1 400px;
+}
+
+.hero-text h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.hero-text p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.hero-text .button {
+    display: inline-block;
+    background: #007acc;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.hero-text .button:hover {
+    background: #005e99;
+}
+
+/* Sections */
+.features,
+.why,
+.blog-list {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.features ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h3 {
+    margin: 0 0 10px 0;
+    font-size: 1.5em;
+}
+
+article p {
+    margin: 0 0 10px 0;
+}
+
+/* Gumroad button */
+.gumroad-button {
+    display: inline-block;
+    background: #ff90e8;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+
+.gumroad-button:hover {
+    background: #e574cf;
+}
+
+footer {
+    background: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
